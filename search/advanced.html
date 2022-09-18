@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            #advance {
+                text-align: left;
+                margin: 50px;
+                color: white;
+                font-size: 18px;
+            }
+            .rounded-2 {
+                width: 39%;
+            }
+            #sub {
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="but">
+            <form id="but1" method="get" action="index.html">
+                <button type="submit">Google Search</button>
+            </form>
+            <form id="but2" method="get" action="image.html">
+                <button type="submit">Images</button>
+            </form>
+        </div>
+        <h1 style="font-size: 75px;">Google</h1>
+        <h1 style="font-size: 40px;">Advanced Search</h1>
+        <div id="advance">
+            <h1 style="font-size: 30px; margin: 0;">Find Pages With...</h1><br>
+            <form action="https://google.com/search" method="get">
+                <label class="col-sm-2 col-form-label">all these words:</label>
+                <input class="rounded-2" type="text" name="as_q"><br></br>
+                <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                <input class="rounded-2" type="text" name="as_epq"><br></br>
+                <label class="col-sm-2 col-form-label">any of these words:</label>
+                <input class="rounded-2" type="text" name="as_oq"><br></br>
+                <label class="col-sm-2 col-form-label">none of these words:</label>
+                <input class="rounded-2" type="text" name="as_eq"><br></br>
+                <div style="text-align: center;">
+                    <button id="sub" type="submit">Advanced Search</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

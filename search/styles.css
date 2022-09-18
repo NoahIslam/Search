@@ -1,0 +1,21 @@
+h1 {
+    color: white;
+    font-size: 100px;
+    margin: 30px;
+}
+#but {
+    text-align: end;
+    margin: 20px;
+}
+#but1, #but2 {
+    display:inline-block;
+    margin: 2px;
+}
+body {
+    text-align: center;
+    background: #35363A;
+}
+.rounded-5 {
+    width: 40%;
+    height: 38px;
+}
